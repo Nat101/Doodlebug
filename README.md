@@ -3,7 +3,6 @@ A simple 2D predator-prey simulation
 
 # General info
 This project was a final assignment for an introduction to C++ course.
-Note: At the time this project was created, I had not yet studied complexity. The body of this program utilizes multiple back to back nested for loops.  In hind site, implementing a different data structure such as a vector to control the flow of the organisms' life cycles would have been a much more efficient method. 
 
 # Project description and requirements
 The goal for this programming project is to create a simple 2D predator-prey simulation. Ecologists use simulations like this to study the population dynamics of organisms. In this simulation the prey are ants and the predators are doodlebugs. These critters live in a world composed of a 20x20 grid of cells. Only one critter may occupy a cell at a time. The grid is enclosed, so a critter is not allowed to move off the edges of the world. Time is simulated in time steps. Each critter performs some action every time step.
